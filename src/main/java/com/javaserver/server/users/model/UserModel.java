@@ -12,14 +12,14 @@ public class UserModel {
     private String name;
     @Column(name = "lastname")
     private String lastname;
-    @Column(name= "password")
+    @Column(name = "password")
     private String password;
     @Column(name = "user")
     private String userName;
     @Column(name = "email")
     private String email;
 
-    public UserModel(String userName, String name, String lastname, String email, String password){
+    public UserModel(Long id, String name, String lastname, String password, String userName, String email) {
 
     }
 

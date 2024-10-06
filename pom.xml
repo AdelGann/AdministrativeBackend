@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.javaserver</groupId>
-    <artifactId>services31</artifactId>
+    <artifactId>Server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>services31</name>
     <description>Services contabilities system</description>

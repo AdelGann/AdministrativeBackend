@@ -1,13 +1,14 @@
-package com.javaserver.services31;
+package com.javaserver.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Services31Application {
+public class ServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Services31Application.class, args);
+		System.out.println("Listening on port 9090");
+		SpringApplication.run(ServerApplication.class, args);
 	}
 
 }

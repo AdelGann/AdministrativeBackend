@@ -1,4 +1,4 @@
-package com.javaserver.services31;
+package com.javaserver.server;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

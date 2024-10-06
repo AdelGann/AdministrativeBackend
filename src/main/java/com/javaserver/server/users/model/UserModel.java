@@ -1,4 +1,4 @@
-package com.javaserver.services31.model;
+package com.javaserver.server.users.model;
 
 import jakarta.persistence.*;
 
@@ -19,12 +19,12 @@ public class UserModel {
     @Column(name = "email")
     private String email;
 
-    public Long getId() {
-        return id;
+    public UserModel(String userName, String name, String lastname, String email, String password){
+
     }
 
-    public void setId(Long newId) {
-        id = newId;
+    public Long getId() {
+        return id;
     }
 
     public String getName() {
